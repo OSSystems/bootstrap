@@ -1,0 +1,58 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Global values
+// --------------------------------------------------
+
+// Accent colors
+// -------------------------
+@blue:                  lighten(@black, 15%);
+@blueDark:              lighten(@black, 5%);
+@green:                 lighten(@black, 25%);
+@red:                   lighten(@black, 20%);
+@yellow:                lighten(@black, 35%);
+@orange:                lighten(@black, 45%);
+@pink:                  lighten(@black, 65%);
+@purple:                lighten(@black, 10%);
+
+// Links
+// -------------------------
+@linkColor:             lighten(@black, 30%);
+@linkColorHover:        lighten(@linkColor, 30%);
+
+// Buttons
+// -------------------------
+
+@btnPrimaryBackground:              lighten(@black, 30%);
+@btnPrimaryBackgroundHighlight:     lighten(@black, 35%);
+
+@btnInfoBackground:                 lighten(@black, 30%);
+@btnInfoBackgroundHighlight:        lighten(@black, 35%);
+
+@btnSuccessBackground:              lighten(@black, 30%);
+@btnSuccessBackgroundHighlight:     lighten(@black, 35%);
+
+@btnWarningBackground:              lighten(@black, 30%);
+@btnWarningBackgroundHighlight:     lighten(@black, 35%);
+
+@btnDangerBackground:               lighten(@black, 30%);
+@btnDangerBackgroundHighlight:      lighten(@black, 35%);
+
+// Form states and alerts
+// -------------------------
+@warningText:             @btnWarningBackground;
+@warningBackground:       @btnWarningBackground;
+@warningBorder:           darken(spin(@warningBackground, -10), 3%);
+
+@errorText:               @btnDangerBackground;
+@errorBackground:         @btnDangerBackground;
+@errorBorder:             darken(spin(@errorBackground, -10), 3%);
+
+@successText:             @btnSuccessBackground;
+@successBackground:       @btnSuccessBackground;
+@successBorder:           darken(spin(@successBackground, -10), 5%);
+
+@infoText:                @btnPrimaryBackground;
+@infoBackground:          @btnPrimaryBackground;
+@infoBorder:              darken(spin(@infoBackground, -10), 7%);
